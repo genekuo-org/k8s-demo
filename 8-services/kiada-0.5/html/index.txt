@@ -1,0 +1,16 @@
+KUBERNETES DEMO APPLICATION v{{version}}
+
+==== TIP OF THE MINUTE
+{{quote}}
+
+==== POP QUIZ
+{{quizQuestion}}
+{{quizAnswers}}
+Submit your answer to {{baseURL}}/question/{{quizQuestionId}}/answers/<index of answer> using the POST method.
+
+==== REQUEST INFO
+Request processed by Kiada {{version}} running in pod "{{podName}}" on node "{{nodeName}}".
+Pod hostname: {{hostname}}; Pod IP: {{podIP}}; Node IP: {{nodeIP}}; Client IP: {{clientIP}}
+{{statusMessage}}
+
+HTML version of this content is available at {{baseURL}}/html
